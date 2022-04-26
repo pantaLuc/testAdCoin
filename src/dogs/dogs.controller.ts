@@ -1,6 +1,5 @@
 import { Controller, Get } from '@nestjs/common';
 import { ApiTags } from '@nestjs/swagger';
-import { Dog } from './dogs.entity';
 import { DogsService } from './dogs.service';
 
 @Controller('dogs')
@@ -8,7 +7,7 @@ import { DogsService } from './dogs.service';
 export class DogsController {
   constructor(private dogService: DogsService) {}
   @Get()
-  findall(): Promise<Dog[]> {
-    return this.findall();
+  findAll() {
+    return this.dogService.showAll();
   }
 }

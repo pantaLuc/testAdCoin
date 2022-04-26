@@ -1,12 +1,15 @@
-import { ApiProperty } from '@nestjs/swagger';
-import { Column, Model, Table } from 'sequelize-typescript';
+import { IsString } from 'class-validator';
+import { Column } from 'sequelize-typescript';
+import { BaseEntity, Entity, PrimaryGeneratedColumn } from 'typeorm';
 
-@Table
-export class Dog extends Model {
+@Entity()
+export class Dog extends BaseEntity {
+  @PrimaryGeneratedColumn()
+  id: number;
   @Column
-  @ApiProperty()
+  @IsString()
   name: string;
   @Column
-  @ApiProperty()
+  @IsString()
   image: string;
 }
