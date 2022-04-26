@@ -3,8 +3,6 @@
 </p>
 
   <p align="center">Technical Test <a href="#" target="_blank">Luc Perin Panta </a> for   Adcoin.</p>
-    <p align="center">
-
  
 ## Description
 
