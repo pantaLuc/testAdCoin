@@ -5,7 +5,7 @@ import { AppModule } from './app.module';
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
   const config = new DocumentBuilder()
-    .setTitle('Cats example')
+    .setTitle('Dog  API by Luc Perin Panta ')
     .setDescription('The AdCoin  API description for technical test')
     .setVersion('1.0')
     .addTag('')

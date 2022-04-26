@@ -31,12 +31,14 @@ $ npm run start:dev
 # production mode
 $ npm run start:prod
 ```
+## swagger page to test Api  Exercice1
+![Alt text](/src/image/test2.png?raw=true "Title")
 
 ## Exercice 1
 
 ```bash
 # run the function 
-$ npm run start
+$ node sum.js
 ```
 
 ## Expected result Exercice1
