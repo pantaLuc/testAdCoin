@@ -15,6 +15,7 @@
 ```bash
 #running Docker-compose file for Mysql Db
 $ docker-compose up
+#install package 
 $ npm install
 ```
 
@@ -31,6 +32,12 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-## Test
+## Exercice 1
 
+```bash
+# run the function 
+$ npm run start
+```
 
+## Expected result Exercice1
+![Alt text](/exercice1/result.png?raw=true "Title")
